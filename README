@@ -1,0 +1,7 @@
+This library is compatible with OpenSSL, so you can use it to generate keys:
+```
+openssl ecparam -name secp256k1 -genkey -out privateKey.pem
+openssl ec -in privateKey.pem -pubout -out publicKey.pem
+```
+Create a message.txt file and sign it:
+openssl dgst -sha256 -sign privateKey.pem -out signatureBinary.txt message.txt

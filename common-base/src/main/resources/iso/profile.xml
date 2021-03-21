@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE isopackager SYSTEM "genericpackager.dtd">
+<isopackager>
+    <isofield class="org.jpos.iso.IFA_NUMERIC" name="MESSAGE TYPE INDICATOR" length="4" id="0"/>
+    <isofield class="org.jpos.iso.IFB_BITMAP" name="BIT MAP" length="16" id="1"/>
+    <isofield class="org.jpos.iso.IFA_LLNUM" name="PAN - PRIMARY ACCOUNT NUMBER" length="19" id="2"/>
+    <isofield class="org.jpos.iso.IFA_NUMERIC" name="PROCESSING CODE" length="6" id="3"/>
+    <isofield class="org.jpos.iso.IFA_NUMERIC" name="TRANSMISSION DATE AND TIME" length="10" id="7"/>
+    <isofield class="org.jpos.iso.IFA_NUMERIC" name="AMOUNT, CARDHOLDER BILLING FEE" length="8" id="8"/>
+    <isofield class="org.jpos.iso.IFA_NUMERIC" name="DATE, SETTLEMENT" length="4" id="15"/>
+    <isofield class="org.jpos.iso.IF_LLLLLLCHAR" name="RESPONSE CODE" length="2" id="39"/>
+    <isofield class="org.jpos.iso.IF_CHAR" name="CURRENCY CODE, TRANSACTION" length="3" id="49"/>
+    <isofield class="org.jpos.iso.IFA_BINARY" name="MESSAGE SECURITY CODE" length="8" id="96"/>
+</isopackager>
