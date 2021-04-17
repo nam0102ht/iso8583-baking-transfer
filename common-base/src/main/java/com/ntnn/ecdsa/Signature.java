@@ -1,6 +1,6 @@
-package com.ntnn.ecc;
+package com.ntnn.ecdsa;
 
-import com.ntnn.ecc.utils.*;
+import com.ntnn.ecdsa.utils.*;
 
 import java.io.IOException;
 import java.math.BigInteger;

@@ -1,4 +1,4 @@
-package com.ntnn.ecc;
+package com.ntnn.ecdsa;
 
 public class GenerateKeys{
 

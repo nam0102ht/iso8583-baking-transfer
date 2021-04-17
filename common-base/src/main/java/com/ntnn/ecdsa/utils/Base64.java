@@ -1,4 +1,4 @@
-package com.ntnn.ecc.utils;
+package com.ntnn.ecdsa.utils;
 
 public class Base64
 {

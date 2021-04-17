@@ -1,7 +1,7 @@
-package com.ntnn.ecc;
+package com.ntnn.ecdsa;
 
 
-import com.ntnn.ecc.utils.*;
+import com.ntnn.ecdsa.utils.*;
 
 import java.math.BigInteger;
 import java.util.Arrays;

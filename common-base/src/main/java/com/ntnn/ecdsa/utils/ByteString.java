@@ -1,4 +1,4 @@
-package com.ntnn.ecc.utils;
+package com.ntnn.ecdsa.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;

@@ -13,11 +13,9 @@ import java.util.List;
 
 public class UserDAO implements IDBCommand{
     private Vertx vertx;
-    private User user;
 
-    public UserDAO(Vertx vertx, User user) {
+    public UserDAO(Vertx vertx) {
         this.vertx = vertx;
-        this.user = user;
     }
 
     @Override

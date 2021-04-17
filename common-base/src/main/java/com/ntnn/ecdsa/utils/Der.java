@@ -1,11 +1,11 @@
-package com.ntnn.ecc.utils;
+package com.ntnn.ecdsa.utils;
 
 import java.io.IOException;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.ntnn.ecc.utils.BinaryAscii.*;
+import static com.ntnn.ecdsa.utils.BinaryAscii.*;
 
 
 public class Der {

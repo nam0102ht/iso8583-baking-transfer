@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.ntnn.gen.auth";
+package com.ntnn.gen.AliceToBob;
+
+service MainApi {
+  rpc authenticate (Request) returns (Response) {}
+  rpc retrieve (Request) returns (Response) {}
+  rpc getProfile (Request) returns (Response) {}
+  rpc resetPin (Request) returns (Response) {}
+}
+
+// The request message containing the key
+
+message Request {
+  int32 errorCode = 1;
+  string message = 2;
+  bool result = 3;
+  string data = 4;
+}
+
+message Response {
+  int32 errorCode = 1;
+  string message = 2;
+  bool result = 3;
+  string data = 4;
+}

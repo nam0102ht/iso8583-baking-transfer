@@ -1,7 +1,7 @@
-package com.ntnn.ecc;
+package com.ntnn.ecdsa;
 
 
-import com.ntnn.ecc.utils.ByteString;
+import com.ntnn.ecdsa.utils.ByteString;
 import org.junit.Test;
 import java.io.IOException;
 import java.net.URISyntaxException;

@@ -1,4 +1,4 @@
-package com.ntnn.ecc;
+package com.ntnn.ecdsa;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

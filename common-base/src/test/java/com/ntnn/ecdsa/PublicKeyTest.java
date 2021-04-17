@@ -1,6 +1,6 @@
-package com.ntnn.ecc;
+package com.ntnn.ecdsa;
 
-import com.ntnn.ecc.utils.ByteString;
+import com.ntnn.ecdsa.utils.ByteString;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 public class PublicKeyTest {
